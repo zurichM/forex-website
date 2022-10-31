@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NINJATRADE login</title>
+    
+    <link rel="shortcut icon" href="images\Forex-signals.jpg" type="icon">
+    <script type="text/javascript" src="jquery-3.6.1.js">
+    </script>
+</head>
+<body>
+    <div id="registerDiv">
+        <h3>
+            Register your forex signals account
+        </h3>
+        <form id="form2" action="forex signals.html">
+            <input type="text" id="name" placeholder="FIRST NAME" required /><br/>
+            <input type="text" id="other-name" placeholder="MEIDEN NAME"  /><br/>
+            <input type="text" id="surname" placeholder="SURNAME" required /><br/>
+            <input type="cel" id="cel-number" placeholder="CELL NUMBER" required /><br/>
+            <input type="email" id="email" placeholder="EMAIL" required /><br/>
+            <input type="submit" id="submit" value="submit" required />
+        </form>
+        <p>Already have an account? <a href="page1.html">SignIn Here</a></p>
+        
+
+    </div>
+    <script>
+        $("body").css({"background": "-webkit-linear-gradient(260deg, green , aqua , aquamarine , green , yellow)"});
+        $("h3").css({"text-align": "center"});
+        $("div").css({"width": "600px", "height": "400px", "position": "relative",
+        "transform": "translate(400px,40px)", "background-color": "lightgreen", "border-radius": "12px"});
+        $("#form2").css({"position": "absolute", "text-align": "center",
+        "transform": "translate(230px,70px"});
+        $("input").css({"border": "None"});
+        //The form
+        $("#name").css({"background-color": "yellow","height": "20px","width": "200px","border-radius":"4px",
+        "text-align": "center", "transform": "translate(1px,-5px)"});
+        $("#other-name").css({"background-color": "blue", "height": "20px", "width": "200px", "border-radius": "4px"
+        ,"text-align": "center", "transform": "translate(1px,10px)"});
+        $("#surname").css({"background-color": "yellow","height": "20px","width": "200px","border-radius":"4px",
+        "text-align": "center", "transform": "translate(1px,20px)"})
+        $("#cel-number").css({"background-color": "blue","height": "20px","width": "200px","border-radius":"4px",
+        "text-align": "center", "transform": "translate(1px,30px)"});
+        $("#email").css({"background-color": "yellow","height": "20px","width": "200px","border-radius":"4px",
+        "text-align": "center", "transform": "translate(1px,40px)"});
+        $("#submit").css({"border-radius":"4px","text-align": "center", "transform": "translate(1px,90px)",
+        "height": "40px", "width": "100px", "text-transform": "uppercase"});
+        $("p").css({"transform": "translate(345px,340px)"})
+    </script>
+    
+</body>
+</html>

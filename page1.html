@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NINJATRADE login</title>
+    
+    <link rel="shortcut icon" href="images\Forex-signals.jpg" type="icon">
+    <script type="text/javascript" src="jquery-3.6.1.js">
+    </script>
+</head>
+<body>
+    <h1>
+        NinjaTrade Login
+    </h1>
+    <div class="userLogIn">
+        <form id="form" method="get" action="forex signals.html">
+
+            <input type="text" id="name" placeholder="username" required /><br/>
+            <input type="password" id="password" placeholder="password" required /><br/>
+            <input type="submit" value="submit" id="submit"/>
+        </form>    
+        <h2>SignIn</h2>
+    </div>
+    <script>
+        $( window ).on( "load", function() {
+            $( document ).ready(function() {
+
+                 // The div 
+                $(".userLogIn").css({"background-color": "lime","width": "600px", "position": "relative",
+                "height": "400px", "transform": "translate(400px,40px)",
+                "border-radius": "10px", "padding": "9px", "margin": "6px",
+                "border": "5px onset black","border-color": "green"});
+                
+        
+                // The form
+                $("#form").css({"position": "absolute", "text-align": "center",
+                "transform": "translate(230px,70px"});
+                
+        
+                $("a").css({"vertical-align": "middle" ,"color": "white"});
+                $("h1").css({"text-align": "center","background-image": "url('Forex-signals.jpg')","color": "white"});
+                $("body").css({"background": "-webkit-linear-gradient(90deg, green , aqua , aquamarine , green , yellow)"});
+                $("h1").css({"height": "110px", "border-radius": "15px"});
+                $("p").css({"transform": "translate(650px,-4px)"});
+                $("input").css({"border": "None"});
+                $("#name").css({"background-color": "aqua", "transform": "translate(-1px,-10px)","width": "200px",
+                "height": "30px", "text-align": "center", "border-radius":"4px"});
+                $("#password").css({"background-color": "aqua", "transform": "translate(-1px,10px)","width": "200px",
+                "height": "30px", "text-align": "center", "border-radius":"4px"});
+                $("#submit").css({"transform": "translate(-1px,40px)", "text-transform": "uppercase",
+                "width": "80px", "height": "30px", "text-align": "center", "border-radius":"4px"});
+                
+                
+            });
+        });
+    
+      
+    </script>
+    <p>can't signin? <a href="page2.html">Click Here</a></p>
+</body>
+</html>
